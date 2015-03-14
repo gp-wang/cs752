@@ -1,0 +1,12 @@
+CS 752: Advanced Computer Architecture I (Fall 2014 Section 1 of 1)
+Homework 2
+
+4. Write a program that implements Sieve of Eratosthenes and outputs one single integer at the end: the number of prime
+numbers <= 100,000,000. Compile your program as a static binary. The output should be: 5761455.
+5. Simulate your program using the following configurations: Default Out-of-order CPU. L1 instruction cache: 32K 8-way set
+associative. L1 data cache: (32K, 64K, 128K, 256K, 8-way) set associative. L2 unified cache: 1MB 8-way set associative.
+Keep the block size fixed at 64-bytes. Read the file $GEM5_HOME/configs/common/Options.py to know about the available
+options. Report the IPC and the cache hierarchy miss rates for the different configurations of the L1 Data cache specified
+above.
+For all of the above tests, use the first 100M instructions to warmup the caches and then collect statistics for next 100M
+instructions.
